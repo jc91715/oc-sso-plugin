@@ -4,6 +4,7 @@ use Cms\Classes\ComponentBase;
 use phpCAS;
 use RainLab\User\Models\User;
 use Auth;
+use Illuminate\Support\Str;
 
 class Sso extends ComponentBase
 {
