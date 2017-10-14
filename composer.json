@@ -1,0 +1,13 @@
+{
+    "name": "root/sso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jc91715",
+            "email": "370234915@qq.com"
+        }
+    ],
+    "require": {
+        "jasig/phpcas": "^1.3"
+    }
+}
