@@ -35,7 +35,7 @@ class Sso extends ComponentBase
                 [
                     'name'                  => $userId,
                     'email'                 => $userId.'@sso.com',
-                    'phone'                 => rand(11),
+                    'phone'                 => rand(),
                     'password'              => $password,
                     'password_confirmation' => $password,
                 ],
