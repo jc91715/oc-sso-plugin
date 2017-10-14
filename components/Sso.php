@@ -43,9 +43,9 @@ class Sso extends ComponentBase
             );
         }
 
-        $userLogin=Auth::login($user, true);
+        Auth::login($user, true);
 
-        var_dump($userLogin);
+        var_dump(Auth::user());
 
     }
 
