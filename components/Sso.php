@@ -33,9 +33,9 @@ class Sso extends ComponentBase
         if(!$user){
             $user     = Auth::register(
                 [
-                    'name'                  => post('real_name'),
-                    'email'                 => post('email'),
-                    'phone'                 => post('phone'),
+                    'name'                  => $userId,
+                    'email'                 => $userId.'@sso.com',
+                    'phone'                 => rand(11),
                     'password'              => $password,
                     'password_confirmation' => $password,
                 ],
