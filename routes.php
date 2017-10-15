@@ -1,6 +1,6 @@
 <?php
-use Auth;
 
-Route::get('/login_out', function () {
-    Auth::logout();
+Route::get('/login/out', function () {
+     Auth::logout();
+     return 'tui';
 });
