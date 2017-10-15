@@ -45,8 +45,7 @@ class Sso extends ComponentBase
 
         Auth::login($user, true);
 
-        var_dump(Auth::getUser());
-
+        \Flash::success('用户登录成功');
     }
 
     protected function initCAS()
